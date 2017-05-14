@@ -1,0 +1,177 @@
+body{
+	font-family: "microsoft yahei";
+	margin:0 auto;
+	padding:0;
+}
+.navbar-default{
+	background-color: #fff;
+	box-shadow: 0 0 5px  rgba(0,0,0,0.25);
+}
+.navbar-default .navbar-brand{
+	color:#40D2B1;
+	font-size: 28px;
+	font-weight: bold;
+	height:70px;
+	line-height: 35px;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #666;
+    font-size: 16px;
+    height:70px;
+    line-height: 35px;
+    font-weight:bold;
+}
+.navbar-default .navbar-toggle:hover{
+	background-color: #40D2B1;
+	
+	
+}
+.navbar-default .navbar-toggle{
+	margin-top: 20px;
+	border:1px solid #1C9982
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #1C9982;
+    
+    
+}
+#home{
+	background: url("../img/home-bg.jpg") no-repeat;
+	width:100%;
+	background-size: cover;
+	margin-top:70px
+}
+#home .filter,#contact .filter{
+	height:100%;
+	width:100%;
+	background: rgba(0,0,0,0.5);
+	padding:90px 0;
+	text-align: center;
+	color:#fff;
+	font-weight: bold;
+}
+#home h1{
+	margin-top:0;
+	margin-bottom: 25px;
+}
+#home p{
+	line-height:25px;
+}
+#carousel-example-generic{
+	margin:0 25px;
+}
+.carousel-indicators .active{
+	background: #333;
+	box-shadow: 0 0 5 #666;
+}
+.carousel-indicators li{
+	border:1px solid #989898
+}
+#bbs{
+	padding:80px 0;
+	text-align: center;
+}
+#bbs a{
+	text-decoration: none;
+	color:#000;
+}
+#bbs .thumbnail{
+	border:0;
+}
+#bbs .thumbnail:hover{
+ background: #eee;	
+ box-shadow: 0 0 10px #ccc;
+}
+.html5,#courses{
+	background:#f8f8f8;
+	padding:80px 0;
+}
+#previous h2{
+	font-weight: bold;
+}
+#previous .fire-icon{
+	width:40px;
+	height:40px;
+	border-radius: 50%;
+	color:#fff;
+	background:#40D2B1;
+	text-align: center;
+	line-height: 40px;
+	margin-right: 20px;
+}
+.bootstrap,#app{
+	padding:80px 0;
+}
+#courses h2,#app h2{
+	margin:0 0 50px;
+	font-weight: bold;
+}
+#courses {
+	text-align: center;
+}
+#courses .course{
+	background: #fff;
+	margin-bottom:20px
+}
+#courses .btn-primary{
+	background: rgba(0,0,0,0);
+	color:#40D2B1;
+	border: 1px solid #40D2B1;
+	padding:8px 30px 8px 30px;
+	margin:20px 0 30px;
+	transition:all 500ms;
+}
+#courses .btn-primary:hover{
+	background: #40D2B1;
+	color:#fff;
+}
+#app .btn{
+	background: #40D2B0;
+	border:1px solid #40D2B0;
+	color:#fff;
+	padding:8px 30px;
+	margin:20px 10px 30px 0;
+	transition: all 500ms;
+	
+}
+#app .btn:hover{
+	background:#058668;
+}
+#contact{
+	width:100%;
+	background: url("../img/contact-bg.png");
+	background-size: cover;
+}
+#contact .filter{
+	text-align: left;
+}
+#contact .filter h2{
+	margin-bottom:30px;
+	font-weight: bold;
+}
+#contact .filter p{
+	font-weight:lighter;
+	margin-bottom:20px;
+	line-height: 25px;
+}
+#contact .form-control{
+	margin-top:25px;
+	height:40px;
+	border:0;
+}
+#contact textarea.form-control{
+	height:auto;
+	resize:none;
+}
+#sub{
+	background: #40D2B0;
+	color:#fff;
+	transition: all 500ms;
+}
+#sub:hover{
+	background:#058668;
+}
+footer{
+	padding:30px 0;
+	text-align: center;
+}
